@@ -57,6 +57,7 @@ spring.jpa.hibernate.ddl-auto=create
 - **spring.jpa.show-sql**: Enables the display of SQL queries in the console.
 - **spring.jpa.hibernate.ddl-auto**: Configures Hibernate schema generation. In this case, set to `create`, meaning the schema is created from scratch each time the application starts.
 
+[!WARNING]
 **Note**: Once you have executed the application for the first time, it's recommended to change `spring.jpa.hibernate.ddl-auto` to `update` or another value to avoid data loss.
 
 
