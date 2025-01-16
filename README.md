@@ -152,12 +152,11 @@ This is a join table to manage the many-to-many relationship between users and r
 ### Constraints:
 - Foreign keys to ensure referential integrity and cascading deletes between the tables.
 
----
-
-## 📋 Summary
+## 📋 Recap
 
 The database should contain three tables: `users`, `roles`, and `users_roles`. The `users` table stores information about the users, the `roles` table stores the available roles, and the `users_roles` table manages the many-to-many relationship between users and roles. This structure ensures flexible and secure management of users and their roles within the application.
 
+---
 
 ## 📝 Summary
 
