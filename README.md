@@ -57,8 +57,8 @@ spring.jpa.hibernate.ddl-auto=create
 - **spring.jpa.show-sql**: Enables the display of SQL queries in the console.
 - **spring.jpa.hibernate.ddl-auto**: Configures Hibernate schema generation. In this case, set to `create`, meaning the schema is created from scratch each time the application starts.
 
-[!WARNING]
-**Note**: Once you have executed the application for the first time, it's recommended to change `spring.jpa.hibernate.ddl-auto` to `update` or another value to avoid data loss.
+> [!WARNING]
+> Once you have executed the application for the first time, it's recommended to change `spring.jpa.hibernate.ddl-auto` to `update` or another value to avoid data loss.
 
 
 ## 🔐 Security & JWT Authentication
@@ -168,7 +168,8 @@ In summary, this **Spring Boot** backend application provides a **REST API** for
 - **Security**: Handled via Spring Security and JWT.
 - **Business Logic**: Encapsulated in services and repositories.
 
-Once the application has been executed and the database schema has been created, make sure to change `spring.jpa.hibernate.ddl-auto` to `update` to avoid losing data on each restart.
+> [!Important]
+> Once the application has been executed and the database schema has been created, make sure to change `spring.jpa.hibernate.ddl-auto` to `update` to avoid losing data on each restart.
 
 
 ## 📌 Getting Started
