@@ -6,6 +6,7 @@ Welcome to the **Backend User Management API** built with **Spring Boot**! This 
 
 This backend application seamlessly integrates with a **frontend** application, creating a complete full-stack solution. The backend handles all the user management logic, including authentication with JWT tokens, while the frontend is responsible for presenting the data to users and managing user interactions.
 
+For those interested in the **frontend**, the source code is available in my GitHub repository. You can access it [here](https://github.com/ElTimoYT/user-app-frontend), where you'll find the complete frontend code that communicates with this backend.
 
 ## 🏗️ Project Structure
 
